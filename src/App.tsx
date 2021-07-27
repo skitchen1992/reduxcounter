@@ -14,9 +14,9 @@ import {
 import {selectors} from "./redux/selectors";
 
 
+
 function App() {
     const dispatch = useDispatch<Dispatch<ReducersTypes>>()
-
     const {
         maxValue,
         startValue,
